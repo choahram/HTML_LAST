@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JAR</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class = "nav">
+            <div class= "menu">
+                <ul>
+                  <li>
+                    <img src="error.png" width="40px" style="margin: 0">
+                  </li>
+                  <li>
+                    <a href = "Home.html">HOME</a>
+                    </li>
+                  <li>
+                    <a href ="Tags.html">Study</a>
+                    </li> 
+                  <li>
+                    <a href ="Aboutme.html">AUBOUTME</a>
+                    </li>  
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <main>
+        <h1>Study</h1>
+        <div = class = "Study">
+            <div class = "Studyclouds">
+                <a href = "Tags.html">HTML</a>
+                <a href = "CSS.html">CSS</a>
+                <a href = "JavaScript.html">JavaScript</a>
+                <a href = "K.History.html">K.History </a>
+            </div>
+                <ol>
+                    <h3><li id="select" style="background-color:coral;">HTML이란</li></h3>
+                    웹사이트는 크게 3가지 요소(HTML, CSS, Javascript) 중 한가지 이며 . HTML은 웹페이지의 큰 뼈대를 제공한다.
+                    <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage의 약자이다.
+                    인터넷의 등장과 함께 발전해온 언어이며, 팀 버너스리에 의해 제안되고 많은 개발이 된 것으로 알려져있다.
+                    웹문서에서 다른 웹문서로 이동할 경우 마크업 해둔 텍스트 링크를 달아 이동하는 개념으로 출발하여 지금으 HTML5의 버전이 표준이다.
+                    <strong>Hyper Text</strong>란 노드(node)와 링크(link)를 통해 웹 상의 다른 문서나 멀티미디어 등으로 이동할 수 있도록 구조화 되어 있는 텍스트.이며
+                    컴퓨터에서 문자, 그래픽, 음성 및 영상 등의 정보들을 비 순차적이고 비 연속적이며 비 선형적인 체계로 유기적으로 연결시켜,
+                    제목의 제시 순서에 관계없이 이용자가 원하는 제목과 관련된 정보를 검색할 수 있도록 하는 정보 제공 방법.[네이버 지식백과]_하이퍼텍스트
+                    <br><strong>Markup Language</strong>란 컴퓨터 프로그래밍 언어의 마크업이라는 문법적인 형식
+                    쉽게 말해서 HTML이란 웹 문서를 만들기 위하여 사용하는 기본적인 웹 언어의 한 종류이다.
+                    <br>
+                    <br>
+                    <h3><li id="select" style="background-color:coral;">TAG : 약 150개 이상 존재하는 HTML 문서를 이루는 문법적 표시이다 </li></h3>
+                    <li><strong>strong</strong> : 진한 글씨체 태그</li>
+                    <li><strong>u</strong> : 밑 줄 태그</li>
+                    <li><strong>h1~6</strong> : '제목 tag' = 줄바꿈, 진한 글씨, 글자 크기가 된다. 1이 제일 높고 6이 제일 낮은 글자 크기다.</li>
+                    <li><strong>br</strong> : 줄 바꿈 태그 = 열리는 태그만 붙이면 되는 것이며 닫히는 태그는 필요 없다, 여러번 한 번에 사용 가능하고 두번 이상 쓰면 단락처럼 사용이 가능하다.</li>
+                    <li><strong>p</strong> : 단락을 표현 태그</li>
+                    <li><strong>img</strong> : 사진 사용 태그가 필요하다. 웹 폴더 안에 있어야 하며 이미지 tag에는 속성이 필요하다.</li>
+                    <li><strong>title</strong> : 웹의 이름을 변경할 때 사용된다.</li>
+                    <li><strong>a</strong> : 링크를 붙이고 싶을 때 사용되는 태그.</li>
+                    <li><strong>table</strong> : 표를 만들 땐 사용되는 태그</li>
+                    <li><strong>form</strong> : 서버로 전송 할 때 사용되는 태그</li>
+                    <li><strong>head와 body</strong> : head와 body를 선언해야 한다. head는 제목 body는 내용을 주로 사용한다.</li>
+                  </ol>
+                
+                  <ul>
+                    <h2><li id="select" style="background-color:coral;">속성과 부가적인 설명</li></h2>
+                  </ul>
+                
+                  <ol>
+                    <li><strong>이미지의 속성: </strong> src="ㅁ.jpg"(이미지의 주소값) width="100%"(이미지 크기 설정)가 필요하다. EX) img src="ㅁ.jpg" width="100%"</li>
+                    <li><strong>meta charset="utf-8"</strong> : 한글을 적었을 시 글자가 깨질 수 있으니 넣어주면 됨</li>
+                    <li><strong>버전</strong>매 버전마다 바뀌는데, 지금은 5버전이고, 5버전일 땐 관용적으로 <strong>!dOCTYPE html</strong>!dOCTYPE html을 맨 위에 붙여줘야한다. dOCTYPE은 Document(문서) type(형식) declaration(선언)의 Document type을 조합한 것이다.</li>
+                    <li><strong>a</strong> 속성값이 필요하다. href="주소값"을 넣어주면 된다. target="_blank"(새로운 탭) title="내용"(링크의 설명) EX)a href="ㅁ" target="_blank" title="내용"</li>
+                    <li><strong>table</strong> 필요한 속성값과 태그는 속성값과 thead - tbody와 tr th td와 tfoot등이 사용된다.</li>
+                    <li><strong>table</strong>는 먼저 table 을 선언 - tr도 선언 - 표의 이름 부분 : th / 내용 tb 모두 닫히는 태그도 필요하다 행을 병합하려면 위에서 아래기준으로 rowspan "숫자" / 열은 왼쪽에서 오른쪽이므로 colspan"숫자" 이렇게 넣어주면 된다.
+                    테이블 태그안에 border "숫자" 깔끔하게 만들 수 있으며, CSS로 만드는 게 더욱 좋다.</li>
+                    <li><strong>form</strong>은 속성으로 action선언하고 "주소"를 받는다. input type "text"는 문자를 입력 받는다. input type "submit"은 제출 이라는 입력 받는다.</li>
+                  </ol>
+        </div>
+    </main>
+  <foter>
+    <center><p> @JoAhRam <a href = "https://github.com/man-gi/web" > code </a></p></center>
+  </footer>    
+</body>
+</html>
